@@ -1,0 +1,7 @@
+*.pyc
+__pycache__/
+*.sqlite3
+.git
+.DS_Store
+.hintrc
+
