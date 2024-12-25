@@ -7,3 +7,18 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+ROLE_CHOICES = (
+    ('admin', 'Admin'),
+    ('user', 'User')
+)
+
+class User(models.Model):
+    name = models.CharField(max_length=255)
+    email = models.CharField(max_length=255)
+    password = models.CharField(max_length=255)
+    role = models.CharField(max_length=10, choices=ROLE_CHOICES, default='user')
+    
+    def __str__(self):
+        return self.name
+    
