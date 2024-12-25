@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-d^6k-d(ksuimmu!3isiho%@1(tts7b7$=^1b$hr%tadl1#_dp!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['api.hexanest.id', '148.135.137.88']
 
 
 # Application definition
